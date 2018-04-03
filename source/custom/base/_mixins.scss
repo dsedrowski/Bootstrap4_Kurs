@@ -25,3 +25,14 @@
     width: $w;
     height: $h;
 }
+
+// Tekst 300 Secondary
+@mixin sk-font-light-secondary() {
+    font-weight: 300;
+    font-family: $sk-font-family-secondary;
+}
+
+// Podstawowe przejście 
+@mixin sk-basic-transition {
+    transition: all .25s ease-in-out;
+}
