@@ -12,6 +12,10 @@ $sk-input-border-color: darken($sk-gray-200, 3%);
 $sk-contact-form-shadow: #292C31;
 $sk-product-search-btn-color: #CCCCCC;
 
+// Własne zmienne - text
+$sk-font-family-body: 'Lato';
+$sk-font-family-secondary: 'Oswald';
+
 // Kolory Bootstrap 4
 $theme-colors: (
     "primary": $sk-accent-color
@@ -28,3 +32,14 @@ $border-radius: 0;
 $border-radius-lg: 0;
 $border-radius-sm: 0;
 
+// Tekst
+$font-family-sans-serif: $sk-font-family-body;
+$headings-font-family: $sk-font-family-secondary;
+$headings-font-weight: 700;
+$font-size-base: .875rem;
+$line-height-base: 1.75;
+$font-size-sm: ($font-size-base * .75);
+$h2-font-size: 2.143rem;
+$h3-font-size: 1.375rem;
+$h4-font-size: 1rem;
+$h5-font-size: .875rem;
