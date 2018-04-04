@@ -50,16 +50,8 @@
 
     <!-- #region CONTENT -->
 
-    <div class="sk-post-list-page">
-        <div class="container">
-            <div class="row">
-                <div class="col text-center">
-                    <div class="sk-view-switcher">
-                        <a href="#"><img src="images/ui/view-grid.png" alt="widok siatki"></a>
-                        <a href="#"><img src="images/ui/view-list.png" alt="widok siatki"></a>
-                    </div>
-                </div>
-            </div>
+    <div class="sk-post-page">
+        <div class="container">            
             <div class="row">
 
                 <!-- #region Lista postów -->
@@ -86,53 +78,95 @@
                             <h2 class="text-uppercase sk-post-item-title">Lorem, ipsum.</h2>
                         </a>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum natus quam sed nesciunt distinctio deleniti unde corporis rerum repellendus iste nihil ipsum molestias nisi necessitatibus officiis soluta nemo perferendis perspiciatis architecto est quia optio iure, fugiat dolore. Deleniti nostrum possimus sunt. Doloremque, consequuntur unde! Nihil quaerat numquam rem, explicabo asperiores harum. Facilis ipsa enim nisi laborum quas totam dolor, voluptatibus odio quae harum qui nesciunt incidunt ea, aut similique? Molestias magnam quia ipsam nisi asperiores corrupti quae. Beatae, quas eius.</p>
-                        <button class="btn btn-primary btn-sm text-uppercase text-white sk-post-item-more">Zobacz więcej</button>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum natus quam sed nesciunt distinctio deleniti unde corporis rerum repellendus iste nihil ipsum molestias nisi necessitatibus officiis soluta nemo perferendis perspiciatis architecto est quia optio iure, fugiat dolore. Deleniti nostrum possimus sunt. Doloremque, consequuntur unde! Nihil quaerat numquam rem, explicabo asperiores harum.</p>
+                        <ul>
+                            <li>Lorem ipsum dolor sit amet.</li>
+                            <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione corrupti quaerat soluta harum?</li>
+                            <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum natus quam sed nesciunt distinctio deleniti unde corporis rerum repellendus iste nihil ipsum molestias nisi necessitatibus officiis soluta nemo perferendis perspiciatis architecto est quia optio iure, fugiat dolore. Deleniti nostrum possimus sunt. Doloremque, consequuntur unde! Nihil quaerat numquam rem, explicabo asperiores harum.</p>
                         <div class="sk-hr"></div>
                     </div>
                     
                     <!-- #endregion -->
 
-                    <!-- #region Post 2 -->
+                    <!-- #region Komentarze -->
 
-                    <div class="pb-0 sk-post-item">
-                        <div class="sk-post-box">
-                            <div class="text-center bg-primary d-flex align-items-center sk-post-box-date">
-                                <div class="mx-auto sk-post-box-date-body">
-                                    <img class="d-none d-md-block mx-auto" src="images/ui/date-icon.png" alt="Kalendarz">
-                                    <span class="text-white d-block sk-post-box-date-value">23 WRZ 2017</span>
-                                </div>
+                    <div class="sk-comments">
+                        <h4 class="sk-comments-header">Komentarze (2)</h4>
+                        <div class="media sk-comment">
+                            <div class="d-flex align-items-center justify-content-center text-center bg-primary sk-comment-avatar">
+                                <img src="images/ui/user-avatar.png" alt="User">
                             </div>
-                            <div class="sk-post-box-body">
-                                <div class="sk-post-box-img">
-                                    <img class="img-fluid" src="images/posts/post-2.jpg" alt="post 1">
+                            <div class="media-body sk-text-small">
+                                <div class="sk-comment-meta">
+                                    <span class="sk-comment-user-name">Krzysztof Kowalski</span> <br />
+                                    <span class="sk-comment-date">25 kwiecień 2017 | 20:03</span>
                                 </div>
+                                <div class="d-flex align-items-start sk-comment-content">
+                                    <p class="sk-comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque minus voluptates iste laborum vitae facere molestias quibusdam obcaecati expedita pariatur voluptas. Molestias quos, maiores consequuntur, dolores molestiae assumenda harum a eius, tempora similique ex possimus. Fugit aspernatur officiis eligendi.</p>
+                                    <img class="align-self-center" src="images/ui/reply-arrow.png" alt="Odpowiedz">
+                                </div>
+                                
+                                <!-- #region Zagnieżdzony komentarz -->
+
+                                <div class="media sk-comment">
+                                    <div class="d-flex align-items-center justify-content-center text-center bg-primary sk-comment-avatar">
+                                        <img src="images/ui/user-avatar.png" alt="User">
+                                    </div>
+                                    <div class="media-body sk-text-small">
+                                        <div class="sk-comment-meta">
+                                            <span class="sk-comment-user-name">Anna Nowak</span> <br />
+                                            <span class="sk-comment-date">25 kwiecień 2017 | 20:29</span>
+                                        </div>
+                                        <div class="d-flex align-items-start sk-comment-content">
+                                            <p class="sk-comment-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, itaque minus voluptates iste laborum vitae
+                                                facere molestias quibusdam obcaecati expedita pariatur voluptas. Molestias quos, maiores consequuntur, dolores
+                                                molestiae assumenda harum a eius, tempora similique ex possimus. Fugit aspernatur officiis eligendi.</p>
+                                            <img class="align-self-center" src="images/ui/reply-arrow.png" alt="Odpowiedz">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- #endregion -->
+
                             </div>
                         </div>
-                        <a class="d-block sk-post-item-link" href="post.html">
-                            <h2 class="text-uppercase sk-post-item-title">Lorem, ipsum.</h2>
-                        </a>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum natus quam sed nesciunt distinctio deleniti unde corporis
-                            rerum repellendus iste nihil ipsum molestias nisi necessitatibus officiis soluta nemo perferendis perspiciatis architecto
-                            est quia optio iure, fugiat dolore. Deleniti nostrum possimus sunt. Doloremque, consequuntur unde! Nihil quaerat
-                            numquam rem, explicabo asperiores harum. Facilis ipsa enim nisi laborum quas totam dolor, voluptatibus odio quae
-                            harum qui nesciunt incidunt ea, aut similique? Molestias magnam quia ipsam nisi asperiores corrupti quae. Beatae,
-                            quas eius.</p>
-                        <button class="btn btn-primary btn-sm text-uppercase text-white sk-post-item-more">Zobacz więcej</button>
                     </div>
 
                     <!-- #endregion -->
 
-                    <!-- #region Paginacja -->
+                    <!-- #region Formularz -->
 
-                    <div class="text-center sk-pagination">
-                        <ul class="pagination justify-content-center">
-                            <li class="page-item disabled"><a class="page-link" href="#">&lt; Poprzednia</a></li>
-                            <li class="page-item"><a class="page-link" href="#">Następna &gt;</a></li>
-                        </ul>
+                    <div class="sk-hr"></div>
+
+                    <div class="sk-comments-form">
+                        <form class="sk-form" action="#">
+                            <div class="row">
+                                <div class="form-group col-md-4">
+                                    <label for="Name">Twoje imię</label>
+                                    <input class="form-control sk-comments-form-control" type="text" id="Name">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="Email">Adres email</label>
+                                    <input class="form-control sk-comments-form-control" type="text" id="Email">
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="Url">Twoja strona</label>
+                                    <input class="form-control sk-comments-form-control" type="text" id="Url">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-group col">
+                                    <label for="Comment">Twój komentarz</label>
+                                    <textarea class="form-control sk-comments-form-control" id="Comment" cols="30" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <button class="btn btn-primary btn-lg text-white sk-comments-form-btn">Wyślij komentarz</button>
+                        </form>
                     </div>
 
                     <!-- #endregion -->
-
                 </div>
 
                 <!-- #endregion -->
