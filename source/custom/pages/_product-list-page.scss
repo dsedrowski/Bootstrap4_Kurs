@@ -1,0 +1,23 @@
+.sk-product-list-page {
+    padding: 40px 0 35px;
+
+    .sk-product-search {
+        margin-bottom: 50px;
+    }
+}
+
+.sk-product-list-intro {
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+        width: 40%;
+    }
+}
+
+.sk-product-list-intro-desc {
+    font-weight: 300;
+}
+
+.sk-products {
+    padding: 0 0 15px;
+}
