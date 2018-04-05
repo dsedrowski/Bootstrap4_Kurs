@@ -32,3 +32,24 @@
 .sk-portfolio-box-img {
     max-width: 540px;
 }
+
+// Style dla portfolio item
+
+.sk-portfolio-item {
+    position: relative;
+    margin-bottom: 1.875rem;
+    
+    .sk-hr {
+        margin: 1rem 0;
+    }
+}
+
+.sk-portfolio-item-info {
+
+    @include sk-font-light-secondary();
+}
+
+.sk-portfolio-box-header {
+    font-size: 1.124rem;
+    letter-spacing: 0.2rem;
+}
